@@ -2,6 +2,8 @@
 
 'Docker slim is a dev tool that allows you to lint Dockerfiles, analyse images and optimize them.
 
+Installation procedure: https://github.com/docker-slim/docker-slim#installation  
+
 == Lab 01: Generate your image
 
 . *With the provided sample project, run `mvn package` to build the maven project*
