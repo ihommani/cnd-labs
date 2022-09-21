@@ -33,8 +33,8 @@ NOTE: The `/q/dev` endpoint should be deleted as `docker-slim` should not have f
 
 == Lab 04: What about that missing endpoint
 
-If you looked at the `GreetingResource.java`, you can see that there are too endpoints but one of them is not detected.
+If you looked at the `GreetingResource.java`, you can see that there are two endpoints but one of them is not detected.
 
-. *Analyse the file provided `probe-commands,json`*
+. *Analyse the file provided `probe-commands.json`*
 . *rerun your analysys with the command file using*
 `docker-slim  build --http-probe-ports 8080 --http-probe cnd-docker-slim --http-probe-cmd-file probe-commands.json`
